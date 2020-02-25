@@ -38,6 +38,8 @@
 ## Major Features and Improvements
 
 *   TFX version 0.21.0 will be the last version of TFX supporting Python 2.
+*   Added experimental cli option `template`, which can be used to scaffold a new
+pipeline from TFX templates. Currently the `taxi` template is provided and more templates would be added in future versions.
 *   Added support for `RuntimeParameter`s to allow users can specify templated
     values at runtime. This is currently only supported in Kubeflow Pipelines.
     Currently, only attributes in `ComponentSpec.PARAMETERS` and the URI of
